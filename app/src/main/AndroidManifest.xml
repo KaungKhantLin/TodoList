@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaungkhantlynn.testingtab">
+
+    <application
+        android:allowBackup="true"
+        android:name=".MainApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TodoList"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddTask"></activity>
+        <meta-data android:name="AA_DB_NAME" android:value="Pickrand.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="5" />
+
+    </application>
+
+</manifest>

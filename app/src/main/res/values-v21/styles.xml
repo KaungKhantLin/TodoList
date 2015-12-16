@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+                <item name="windowNoTitle">true</item>
+                <item name="windowActionBar">false</item>
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="android:statusBarColor">@color/navigationBarColor</item>
+        </style>
+
+        <style name="MyButtonStyle" parent="Widget.AppCompat.Button.Colored">
+                <item name="android:colorButtonNormal">#534364</item>
+                <item name="android:textColor">#ffffff</item>
+        </style>
+
+</resources>
